@@ -6,7 +6,7 @@ This repository contains scripts for analyses of evolution of live-birth transit
 
 ## ARG Inference
 
-This section contains analysis scripts for inferring ancestral recombination graphs (ARGs) using [ARGweaver](https://github.com/mdrasmus/argweaver/). The marginal trees obtained from the ARG analysis is then used for topoloogy weighting. 
+This section contains analysis scripts for inferring ancestral recombination graphs (ARGs) using [ARGweaver](https://github.com/mdrasmus/argweaver/). The marginal trees obtained from the ARG analysis is then used for topoloogy weighting. Path to main analysis - `ARG_inference/scripts/analysis.Rmd`.
 
     ARG_inference/scripts
     |-- analysis.Rmd                                    # R notebook for step-by-step analysis of ARGweaver output
@@ -24,7 +24,7 @@ This section contains analysis scripts for inferring ancestral recombination gra
 
 ## Phylogenetic Analysis
 
-This section contains scripts to generate neighbour-joining (NJ) tree and Neighbor-Net (nNet) network of phylogenetic relationship among all _Littorina_ samples. This relates to the NJ tree in Fig 1.
+This section contains scripts to generate neighbour-joining (NJ) tree and Neighbor-Net (nNet) network of phylogenetic relationship among all _Littorina_ samples. This relates to the NJ tree in Fig 1. Path to main analysis - `phylogenetics/buildTrees.ipynb`
 
     phylogenetics/
     |-- buildTrees.ipynb                                # Pipeline for phylogenetic analysis (NB: R kernel in Jupyter notebook)
