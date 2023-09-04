@@ -14,7 +14,6 @@ This section contains analysis scripts for inferring ancestral recombination gra
     |   |-- functions_from_argweaver.R                  # Functions for running analysis.Rmd (modified from original ARGweaver repo)
     |   |-- functions_v2.R                              # Functions for running analysis.Rmd (version 2, written by Arka Pal)
     |   `-- vcf2sites.R                                 # R function to convert .vcf to .sites format used by ARGweaver
-    |-- notes.sh                                        # Notes on preprocessing steps ARGweaver
     |-- pipeline_Littorina.sh                           # Pipeline running ARGweaver on Littorina samples
     `-- slurm                                           # Folder containing SLURM scripts for submitting HPC cluster jobs
         |-- job-resumeArgweaver_masked.slurm            # Resume ARGweaver run on sequneces masked with missing sites 
