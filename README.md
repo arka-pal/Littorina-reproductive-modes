@@ -1,4 +1,4 @@
-Analysis for reproductive modes in __Littorina__ snails
+Analysis for reproductive modes in _Littorina_ snails
 ============================
 
 This repository contains scripts for analyses of evolution of live-birth transition in Littorina snails.
